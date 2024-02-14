@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wood Emporium</title>
+<style>
+  /* Inline CSS */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f1e7; /* Light beige */
+  }
+  
+  .header {
+    background-color: #4c2f1a; /* Dark brown */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    background-color: #f9f2ec; /* Light brown */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .product h2 {
+    margin-top: 0;
+    color: #4c2f1a; /* Dark brown */
+  }
+  
+  .footer {
+    background-color: #4c2f1a; /* Dark brown */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <h1>Welcome to Wood Emporium</h1>
+  <p>Find the finest quality wood products here!</p>
+</header>
+
+<div class="container">
+
+  <div class="product">
+    <h2>Hardwood Planks</h2>
+    <img src="hardwood.jpg" alt="Hardwood Planks">
+    <p>Beautiful and durable hardwood planks for all your crafting needs.</p>
+    <p>Price: $20 per plank</p>
+  </div>
+
+  <div class="product">
+    <h2>Oak Tables</h2>
+    <img src="oak-table.jpg" alt="Oak Tables">
+    <p>Elegant oak tables crafted to perfection for your home.</p>
+    <p>Price: $300 per table</p>
+  </div>
+
+  <div class="product">
+    <h2>Pine Shelves</h2>
+    <img src="pine-shelves.jpg" alt="Pine Shelves">
+    <p>Functional and stylish pine shelves to organize your space.</p>
+    <p>Price: $50 per shelf</p>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <p>&copy; 2024 Wood Emporium. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
